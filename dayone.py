@@ -24,3 +24,9 @@ if n%2==0:
     print("It is an even number")
 else:
     print("it is an odd number")
+
+list=[1,2,3,3,4,5,5]
+k=set(list)
+print(k)
+k.add(6)
+print(k)

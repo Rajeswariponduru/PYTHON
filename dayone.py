@@ -30,3 +30,18 @@ k=set(list)
 print(k)
 k.add(6)
 print(k)
+
+dict={
+    "model":"1st model",
+    "year":2021
+}
+print(type(dict))
+print(dict)
+
+dict={
+    "model":"2nd model",
+    "year":2022,
+    "age":27
+}
+print(type(dict))
+print(dict['model'])

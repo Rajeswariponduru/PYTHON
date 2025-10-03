@@ -45,3 +45,5 @@ dict={
 }
 print(type(dict))
 print(dict['model'])
+dict['city']='hyderabad'
+print(dict)

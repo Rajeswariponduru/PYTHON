@@ -58,4 +58,18 @@ try:
     print("sum:",result)
 except ValueError:
     print("Indentation error")
+
+try:
+    num = int(input("Enter first number"))
+    result = 10 / num
+    print("Result:",result)
+except ValueError:
+    print("Invalid input! please enter numbers only.")
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+except Exception as e:
+    print("An error occured:",e)
+finally:
+    print("Execution Finished")
+    
     

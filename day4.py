@@ -22,3 +22,40 @@ a=10
 b=20
 c=mom(a,b)
 print(c
+
+      def mom(a,b):
+    return(a+b)
+    
+a=10
+b=20
+c=mom(a,b)
+print(c)
+
+end
+
+if True:
+    print("valid")
+else:
+    print("invalid")
+
+end
+
+exceptions
+
+try:
+    a= int(input("Enter first number"))
+    b= int(input("Enter second number"))
+    result = a+b
+    print("sum:",result)
+except ValueError:
+    print("Invalid input! please enter numbers only.")
+    
+    
+try:
+    a= int(input("Enter first number"))
+    b= int(input("Enter second number"))
+    result = a+b
+    print("sum:",result)
+except ValueError:
+    print("Indentation error")
+    
